@@ -114,11 +114,12 @@ export default function MapAreaMarker() {
         <CardHeader>
           <CardTitle className="flex items-center gap-2">
             <MapPin className="h-5 w-5" />
-            Penanda Area di OpenStreetMap
+            Map Area Marker - Penanda Area Interaktif
           </CardTitle>
           <CardDescription>
-            Peta akan otomatis mengarah ke lokasi Anda. Klik pada peta untuk marker atau pilih polygon untuk menggambar
-            area.
+            Aplikasi web untuk menandai, mengukur, dan menganalisis area di peta. Fitur lengkap: marker lokasi, polygon
+            area, koneksi antar wilayah, berbagai layer peta (satelit, terrain), dan perhitungan otomatis luas area.
+            Cocok untuk survei lahan, perencanaan wilayah, dan analisis geografis.
           </CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
@@ -239,7 +240,7 @@ export default function MapAreaMarker() {
             <div className="text-center text-sm text-muted-foreground bg-blue-50 p-3 rounded-lg">
               <div className="flex items-center justify-center gap-2">
                 <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-blue-600"></div>
-                <span>Memuat peta dan mencari lokasi Anda...</span>
+                <span>Memuat Map Area Marker dan mencari lokasi Anda...</span>
               </div>
             </div>
           )}

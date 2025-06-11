@@ -1,30 +1,43 @@
-# Reactjs area marker
+# 🗺️ Map Area Marker - Penanda Area Interaktif
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+Aplikasi web modern untuk menandai, mengukur, dan menganalisis area di peta dengan fitur lengkap untuk survei lahan, perencanaan wilayah, dan analisis geografis.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/website-gratis-projects/v0-reactjs-area-marker)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/z88IHs4rsac)
+## 📖 Deskripsi
 
-## Overview
+**Map Area Marker** adalah aplikasi web interaktif yang memungkinkan pengguna untuk:
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+- 📍 **Menandai Lokasi**: Tambahkan marker di titik-titik penting
+- 📐 **Mengukur Area**: Gambar polygon dan hitung luas area secara otomatis  
+- 🔗 **Menghubungkan Wilayah**: Visualisasi koneksi antar area dengan perhitungan jarak
+- 🛰️ **Multi-Layer Peta**: Pilihan tampilan peta (Street, Satelit, Terrain, Hybrid)
+- 📊 **Analisis Data**: Statistik lengkap area, perimeter, dan total wilayah
+- 📱 **Responsive Design**: Optimal di desktop dan mobile
+- 🎯 **Auto-Location**: Otomatis mengarah ke lokasi pengguna
 
-## Deployment
+Cocok untuk berbagai kebutuhan seperti survei lahan, perencanaan kota, analisis geografis, penelitian lingkungan, dan manajemen properti.
 
-Your project is live at:
+## ✨ Fitur Utama
 
-**[https://vercel.com/website-gratis-projects/v0-reactjs-area-marker](https://vercel.com/website-gratis-projects/v0-reactjs-area-marker)**
+### 🎯 Penandaan Area
+- **Marker Lokasi**: Tandai titik-titik penting dengan marker kustom
+- **Polygon Area**: Gambar area dengan polygon multi-titik
+- **Info Popup**: Tambahkan nama dan deskripsi untuk setiap area
+- **Auto-Calculation**: Perhitungan otomatis luas dan keliling area
 
-## Build your app
+### 🗺️ Visualisasi Peta
+- **Multi-Layer**: Street Map, Satelit, Terrain, dan Hybrid view
+- **Interactive Controls**: Zoom, pan, dan layer switching
+- **User Location**: Auto-detect dan center ke lokasi pengguna
+- **Responsive Design**: Optimal di semua ukuran layar
 
-Continue building your app on:
+### 🔗 Analisis Koneksi
+- **Area Connection**: Hubungkan area dengan garis koneksi
+- **Distance Calculation**: Hitung jarak antar area
+- **Boundary Analysis**: Analisis wilayah terhubung dengan convex hull
+- **Total Area**: Perhitungan total luas wilayah terhubung
 
-**[https://v0.dev/chat/projects/z88IHs4rsac](https://v0.dev/chat/projects/z88IHs4rsac)**
-
-## How It Works
-
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+### 📊 Data Management
+- **CRUD Operations**: Create, Read, Update, Delete area
+- **Data Persistence**: Simpan data area dengan informasi lengkap
+- **Export Ready**: Struktur data siap untuk export/import
+- **Statistics**: Dashboard statistik area dan koneksi

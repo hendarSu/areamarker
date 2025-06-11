@@ -1,7 +1,32 @@
 {
-  "name": "my-v0-project",
-  "version": "0.1.0",
+  "name": "map-area-marker",
+  "version": "1.0.0",
   "private": true,
+  "description": "Aplikasi web interaktif untuk menandai, mengukur, dan menganalisis area di peta dengan fitur lengkap untuk survei lahan dan analisis geografis",
+  "keywords": [
+    "map",
+    "marker",
+    "polygon",
+    "area-measurement",
+    "gis",
+    "leaflet",
+    "openstreetmap",
+    "survey",
+    "geographic-analysis",
+    "nextjs",
+    "react",
+    "typescript"
+  ],
+  "author": "Map Area Marker Team",
+  "license": "MIT",
+  "homepage": "https://map-area-marker.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/map-area-marker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/map-area-marker/issues"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -45,11 +70,11 @@
     "embla-carousel-react": "8.5.1",
     "input-otp": "1.4.1",
     "lucide-react": "^0.454.0",
-    "next": "15.2.4",
+    "next": "14.2.16",
     "next-themes": "^0.4.4",
-    "react": "^19",
+    "react": "^18",
     "react-day-picker": "8.10.1",
-    "react-dom": "^19",
+    "react-dom": "^18",
     "react-hook-form": "^7.54.1",
     "react-resizable-panels": "^2.1.7",
     "recharts": "2.15.0",
@@ -61,8 +86,8 @@
   },
   "devDependencies": {
     "@types/node": "^22",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
     "postcss": "^8.5",
     "tailwindcss": "^3.4.17",
     "typescript": "^5"
